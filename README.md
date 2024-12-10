@@ -56,16 +56,13 @@ Each task is stored in its own directory with source code, and necessary files f
 1. **Clone the Repository**
 
 2. **Navigate to a Specific Task Directory**:
-   Each task is located in its own subdirectory. For example, to explore the Number Guessing Game:
-   ```bash
-   cd numbergame
-   ```
-
-3. **Run the Code**:
+   Each task is located in its own subdirectory.
+   
+4. **Run the Code**:
    - Open the project in your preferred IDE (like visual studio code or Eclipse).
    - Execute the `Main` class or the relevant entry point for each project.
 
-4. **Review the Source Code**:
+5. **Review the Source Code**:
    - Each directory contains Java source files (`.java`) along with a brief explanation of the task.
    - Follow any specific instructions inside the directory to run the program or make modifications.
 
