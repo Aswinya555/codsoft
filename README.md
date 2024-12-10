@@ -40,7 +40,7 @@ A currency converter that uses real-time exchange rates to allow users to conver
 - Simple, user-friendly interface for currency conversion.
 
 # Task 5: Student Management System
-A system designed to manage student records, including adding, updating, and deleting student information. The system is built using `Student` and `StudentManagementSystem` classes and offers a basic user interface for interacting with student data.
+A system designed to manage student records, including adding, updating, and deleting student information. The system is built using Student and StudentManagementSystem classes and offers a basic user interface for interacting with student data.
 
 **Features**:
 - Add, update, and delete student records.
