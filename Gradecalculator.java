@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Gradecalculator {    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("How many subjects do you want to enter marks for? ");
         int subjectCount = input.nextInt();
         int totalScore = 0;
@@ -14,6 +13,7 @@ public class Gradecalculator {
         }
 
         double percentage = (double) totalScore / (subjectCount * 100) * 100;
+
         char finalGrade;
         if (percentage >= 90) {
             finalGrade = 'A';
@@ -26,7 +26,7 @@ public class Gradecalculator {
         } else {
             finalGrade = 'F';
         }
-        
+
         System.out.println("-----------------------------");
         System.out.println("Total Marks: " + totalScore);
         System.out.println("Average Percentage: " + percentage + "%");
