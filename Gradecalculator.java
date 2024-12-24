@@ -5,15 +5,12 @@ public class Gradecalculator {
         System.out.print("How many subjects do you want to enter marks for? ");
         int subjectCount = input.nextInt();
         int totalScore = 0;
-
         for (int i = 1; i <= subjectCount; i++) {
             System.out.print("Enter the marks for subject " + i + ": ");
             int marks = input.nextInt();
             totalScore += marks;
         }
-
         double percentage = (double) totalScore / (subjectCount * 100) * 100;
-
         char finalGrade;
         if (percentage >= 90) {
             finalGrade = 'A';
@@ -26,12 +23,10 @@ public class Gradecalculator {
         } else {
             finalGrade = 'F';
         }
-
         System.out.println("-----------------------------");
         System.out.println("Total Marks: " + totalScore);
         System.out.println("Average Percentage: " + percentage + "%");
         System.out.println("Final Grade: " + finalGrade);
-
         input.close();
     }
 }
